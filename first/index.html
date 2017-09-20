@@ -3,12 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>BackBone.js</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone-min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone-min.map"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone.js"></script>
-    <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
+    <script src="http://underscorejs.org/underscore.js"></script>
+    <script src="http://backbonejs.org/backbone.js"></script>
+    
 </head>
 <body>
    <div id="root">loading . . </div> 
+    
+   <ul id="list">
+    
+   </ul>
+   
 </body>
+    <script type="text/template" id="listTemplate">
+        <div><%=title %><div>
+        <div><%=done %><div>
+                
+    </script>
+    <script src="./js/script.js"></script>
 </html>   
